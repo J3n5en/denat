@@ -55,7 +55,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           file: denat-${{ matrix.os }}.tar.gz
           asset_name: denat-${{ matrix.os }}.tar.gz
-          tag: ${{ github.ref }}
+          tag: ${{ env.SHA8 }}
           overwrite: true
           body: "denat"
         
