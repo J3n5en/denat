@@ -1,0 +1,8 @@
+{
+  "type": "directory",
+  "sub_domain": "denodemo",
+  "local_host": "127.0.0.1",
+  "domain": "hk1.utools.club",
+  "local_port": 8080,
+  "directory": "./"
+}
