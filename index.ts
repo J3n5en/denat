@@ -12,12 +12,12 @@ const CONFIG_SAMPLE = `
 // 茶猫云香港(30M) => hk1.utools.club;
 // 中国电信(100M) => cn1.utools.club;
 {
-  type: "directory",
-  sub_domain: "denodemo",
-  local_host: "127.0.0.1",
-  domain: "cn1.utools.club",
-  local_port: 8080,
-  directory: "./"
+  "type": "directory",
+  "sub_domain": "denodemo",
+  "local_host": "127.0.0.1",
+  "domain": "cn1.utools.club",
+  "local_port": 8080,
+  "directory": "./"
 }
 `;
 
