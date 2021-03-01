@@ -30,7 +30,7 @@ jobs:
       - name: Compile denat
         run: |
           mkdir out
-          deno compile --allow-net --unstable --allow-read --allow-write -o out/denat index.ts
+          deno compile --allow-net --unstable --allow-read --allow-write --lite -o out/denat index.ts
      
       - name: Compress denat
         uses: master-atul/tar-action@v1.0.2
